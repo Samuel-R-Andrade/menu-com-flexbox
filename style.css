@@ -5,11 +5,19 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 45px;
 }
 
-h1 {
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
     font-size: 20px;
+    font-weight: 800;
+    margin: 6px;
 }
 
 .menu {
@@ -18,11 +26,12 @@ h1 {
 }
 
 .menu ul li {
-    list-style-type: none; /*remoção de marcadores de uma li*/    
+    list-style-type: none; /*remoção de marcadores de uma li*/
 }
 
 ul {
     display: flex;
+    align-items: center;
 }
 
 .menu ul li a {
@@ -37,11 +46,10 @@ ul {
     color: white;
 }
 
-/* .botao {
-    align-self: center;
+button {
     border-radius: 10px;
+    padding: 10px 21px;
+    border-style: none;
     background-color: #5BC241;
     color: white;
-    width: auto;
-    height: 39px;
-} */
+}
